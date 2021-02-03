@@ -171,7 +171,7 @@ img {
 }
 
 img.longlogo {
-  max-width: -moz-available;
+  min-width: 200px;
   padding: 0 20px;
 }
 
