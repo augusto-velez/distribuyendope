@@ -484,6 +484,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  margin: auto;
 }
 
 .img-thumbnail {
@@ -4535,6 +4536,10 @@ input[type='button'].btn-block {
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
   color: rgba(0, 0, 0, 0.9);
+}
+
+#mainNav .navbar-collapse.collapse.show .navbar-nav .nav-item .nav-link {
+  color: #fff;
 }
 
 .navbar-dark .navbar-brand-color {
@@ -10701,6 +10706,8 @@ header.masthead .masthead-heading {
   border: 7px solid #e9ecef;
   border-radius: 100%;
   background-color: #66909b;
+  display: flex;
+  justify-content: center;
 }
 .timeline > li .timeline-image h4 {
   font-size: 10px;
